@@ -1,0 +1,160 @@
+#reelgood_service_settings_edit_priority {
+  background-color: #00dc89;
+}
+
+#reelgood_service_priority_add_row {
+  margin-left: 8px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+#reelgood_service_settings_cancel {
+  background-color: #d8d8d8;
+  margin-right: 32px;
+}
+
+#reelgood_service_settings_save {
+  background-color: #00dc89;
+}
+
+#reelgood_priority_column {
+  padding-bottom: 60px;
+}
+
+#reelgood_service_settings_current_service_settings {
+  border: solid 1px #d8d8d8;
+  border-radius: 8px;
+  margin-top: 24px;
+  min-height: 288px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+#reelgood_service_settings_current_service_settings > .reelgood_row {
+  margin: 12px 24px 12px;
+  height: 32px;
+}
+
+#reelgood_service_settings_current_service_settings > .reelgood_row:first-of-type {
+  margin-top: 24px;
+}
+
+#reelgood_service_settings_current_service_settings > .reelgood_row:last-of-type {
+  margin-bottom: 24px;
+}
+
+#reelgood_service_settings_current_service_settings > .reelgood_row > div {
+  margin-bottom: 0;
+}
+
+#reelgood_service_settings_current_service_settings > .reelgood_row > div:first-of-type {
+  margin-right: 16px;
+}
+
+#reelgood_service_settings_current_default_styling {
+  border: solid 1px #d8d8d8;
+  border-radius: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#reelgood_service_settings_current_default_styling > .reelgood_publishers_widget {
+  margin: 6px 12px;
+}
+
+#reelgood_service_settings_current_default_styling > .reelgood_publishers_widget:first-child {
+  margin-top: 12px;
+}
+
+#reelgood_service_settings_current_default_styling > .reelgood_publishers_widget:last-child {
+  margin-bottom: 12px;
+}
+
+.reelgood_service_settings_dropdown {
+  width: 68px;
+  height: 38px;
+  border-radius: 4px;
+  border: solid 1px #9b9b9b;
+  outline: none;
+  user-select: none;
+}
+
+.reelgood_service_settings_dropdown > div:first-of-type {
+  height: 38px;
+  align-items: center;
+  margin: 0 8px 0;
+}
+
+.reelgood_service_settings_dropdown > .reelgood_service_settings_dropdown_title {
+  margin: 11px 0 11px 16px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+}
+
+.reelgood_service_settings_dropdown > .reelgood_service_settings_dropdown_options {
+  position: relative;
+  margin-top: 8px;
+  border-radius: 4px;
+  border: solid 1px #9b9b9b;
+  background-color: white;
+  display: none;
+}
+
+.reelgood_service_settings_dropdown > .reelgood_service_settings_dropdown_options > .reelgood_service_settings_dropdown_options_option {
+  height: 36px;
+  width: calc(100% - 16px - 16px);
+  padding-left: 16px;
+  padding-right: 16px;
+  line-height: 36px;
+}
+
+.reelgood_service_settings_dropdown > .reelgood_service_settings_dropdown_options > .reelgood_service_settings_dropdown_options_option:not(:first-of-type) {
+  border-top: solid 1px #9b9b9b;
+}
+
+.reelgood_service_settings_setting_desc {
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.reelgood_service_priority_row {
+  margin-bottom: 4px;
+  padding: 6px 9px 6px 6px;
+  position: relative;
+}
+
+.reelgood_service_priority_row_dragging {
+  opacity: 0;
+}
+
+.reelgood_service_priority_dropdown {
+  z-index: 999;
+}
+
+.reelgood_service_priority_row_title {
+  margin-bottom: 0;
+  width: 170px;
+  height: 52px;
+  line-height: 52px;
+  margin-bottom: 4px;
+}
+
+.reelgood_service_priority_row_drag {
+  height: 30px;
+  position: absolute;
+  padding: 0 6px 0 318px;
+  z-index: 2;
+}
+
+.reelgood_service_priority_row_drag_backdrop {
+  position: absolute;
+  width: 350px;
+  height: 52px;
+  margin-left: -6px;
+  border-radius: 4px;
+}
+
+.reelgood_service_priority_row_drag:hover ~ .reelgood_service_priority_row_drag_backdrop {
+  background-color: rgba(216, 216, 216, 0.8);
+}
